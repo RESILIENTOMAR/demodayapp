@@ -1,0 +1,155 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+img{
+  height: 200px;
+}
+
+.fa-trash:before{content:'\f00d';
+}
+/* //========================INDEX PAGE======================// */
+#indexBackground{
+  background: url("img/digiart.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron{
+  background-color: rgba(255, 255, 255, 0);
+  color:white;
+  text-shadow: 1px 1px 1px black;
+}
+
+#logoimg{
+  width: 500px;
+  height: 300px;
+  border-radius: 40px;
+}
+#mainHead{
+  color:black;
+  font-size: 7rem;
+  text-shadow: 3px 3px 3px rgb(240,111,14); 
+}
+
+.jumbotron>p{
+  font-size: 4rem;
+}
+
+.jumbotron>a{
+  margin-right:5px;
+}
+/* //================================LOGIN PAGE====================// */
+#loginBackground{
+  background: url('img/loginwallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#loginHeader{
+color: white;
+font-size: 4rem;
+text-align: center;
+text-shadow:2, 2, 2 black;
+margin-top:274px; 
+margin-right: 173px;
+}
+
+.loginP{
+  color:white;
+  margin-left:110px;
+  text-shadow:2px 2px 2px black;
+}
+
+.form-group>label{
+  color:white;
+  text-shadow:3px 3px 2px black;
+  font-size: 2rem;
+}
+
+.form-group>input{
+  background:rgba(241, 194, 55, 0.452);
+  color:white;
+  width:400px;
+  font-size: 2.3rem;
+}
+
+
+
+#loginBtn{
+  border: 5px groove silver;
+  margin-left:150px;
+  height:60px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#loginLine{
+  width:400px;
+  margin-left: 0;
+}
+/*===================================profile page=====================*/
+#profileBody{
+  background: url('img/artbackground.jpg');
+  background-size: cover;
+
+}
+#userInfo{
+  width:100px;
+  height:110px;
+}
+
+.well{
+  margin-top:300px;
+  height:160px;
+  width:200px;
+}
+
+.col-sm-6 h3{
+  width:126px;
+  margin-right: 40px;
+}
+
+ul{
+  border: 8px inset teal;
+  list-style-type:circle;
+}
+
+/*=====================COMMUNITY=============*/
+#communityBody{
+  background: url('img/camping.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.btn-default {
+  text-shadow: 0 0 BLACK;
+}
+
+#communityBody ul{
+  background:rgba(144, 208, 206, 0.727);
+}
+#communityBody li{
+  color:white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 2rem;
+
+}
+
+#communityBody li::before {
+  content: "✪";
+  color: gold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#communityBody input{
+  display: block;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
